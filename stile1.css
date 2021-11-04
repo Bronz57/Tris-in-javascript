@@ -1,0 +1,36 @@
+#container{
+    width: 200px;
+	height: 200px;
+	margin: auto;
+	display: grid;
+	grid-template: repeat(3, 5fr) / repeat(3, 5fr);    
+}
+
+.cella{
+    border: 1px solid white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight:lighter;
+    color: blue;
+    font-size: 60px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.riga1{
+    border-top:none;
+}
+
+.colonna1{
+    border-left: none;
+}
+
+.riga3{
+    border-bottom: none;
+}
+
+.colonna3{
+    border-right: none;
+}
+
+

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stile1.css">
+    <title>Tris</title>
+</head>
+<body>
+   <h1>Gioco del tris</h1>
+   <p id="helpGui">
+        Benvenuto al gioco del tris <br/>
+        <input type="radio" name="chiGioca" id="rdb1vs1" checked/>
+        <label for="rdb1vs1">Gioca contro un tuo amico</label> <br/>
+        <input type="radio" name="chiGioca" id="rdbPc" />
+        <label for="rdbPc">Gioca contro il pc</label>
+        <br /><br/>
+        <button type="button" onclick="ScegliGioco('cella')">Clicca qui per giocare</button>
+        Buon divertimento :D
+   </p>
+
+    
+    <div id="container">
+        <div id="div1" class="cella riga1 colonna1" onclick="Segna('div1')"></div>
+        <div id="div2"  class="cella riga1" onclick="Segna('div2')"></div>
+        <div id="div3"  class="cella riga1 colonna3" onclick="Segna('div3')"></div>
+        <div id="div4"  class="cella colonna1" onclick="Segna('div4')"></div>
+        <div id="div5"  class="cella" onclick="Segna('div5')"></div>
+        <div id="div6"  class="cella colonna3" onclick="Segna('div6')"></div>
+        <div id="div7"  class="cella riga3 colonna1" onclick="Segna('div7')"></div>
+        <div id="div8"  class="cella riga3" onclick="Segna('div8')"></div>
+        <div id="div9"  class="cella riga3 colonna3" onclick="Segna('div9')"></div>
+    </div>
+
+
+   <script src="script1.js"></script>
+</body>
+</html>
